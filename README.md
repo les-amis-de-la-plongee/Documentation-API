@@ -1,10 +1,6 @@
-# Documentation de l'API Backend
+# Documentation API
 
-## Introduction
-
-Cette documentation détaille l'ensemble des routes disponibles dans l'API backend, leur utilisation, les paramètres attendus, les réponses retournées et les codes d'erreur possibles.
-
-L'API est construite avec Express.js et utilise MongoDB comme base de données. Elle gère l'authentification, les profils utilisateurs, les événements, les médias et d'autres fonctionnalités pour une application de club de plongée.
+Cette documentation décrit les endpoints de l'API REST du système de gestion de club de plongée.
 
 ## Table des matières
 
@@ -15,6 +11,8 @@ L'API est construite avec Express.js et utilise MongoDB comme base de données. 
 - [Médias](./media/README.md)
 - [Comité](./comite/README.md)
 - [Sites de plongée](./diving-sites/README.md)
+- [Niveaux de plongeur](diving-levels/README.md)
+- [Événements](events/README.md)
 - [Format des réponses](./common/responses.md)
 - [Codes d'erreur](./common/errors.md)
 
